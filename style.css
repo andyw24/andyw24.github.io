@@ -1,9 +1,9 @@
 .header {
-  background-color: #f1f1f1;
+  background-color: #f2f2f2;
   padding: 100px;
 }
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/mtMatterhorn.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/mtMatterhorn.jpg");
   height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -33,15 +33,23 @@
   background-color: #ddd;
   color: black;
 }
+body {
+  background-color: #f2f2f2;
+  word-wrap: break-word;
+}
 h1 {
   text-align: center;
   font-family: Palatino, Georgia, "Times New Roman", Helvetica;
   font-size: 200%;
 }
 h2 {
+  margin-left: 5%;
+  margin-right: 5%;
   font-family: Palatino, Georgia, "Times New Roman", Helvetica;
   color: blue;
 }
 p {
+  margin-left: 5%;
+  margin-right: 5%;
   font-family: Palatino, Georgia, "Times New Roman", Helvetica;
 }
