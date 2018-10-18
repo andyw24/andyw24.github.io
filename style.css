@@ -1,5 +1,26 @@
+.header {
+  background-color: #f1f1f1;
+  padding: 100px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 h1 {
+  text-align: center;
   font-family: Palatino, Georgia, "Times New Roman", Helvetica;
+  font-size: 200%;
 }
 h2 {
   font-family: Palatino, Georgia, "Times New Roman", Helvetica;
