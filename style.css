@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 .anchor {
-  padding: 40px;
+  padding: 90px;
 }
 .header {
   background-color: #f2f2f2;
@@ -34,6 +34,7 @@
   font-size: 150%;
   text-align: center;
   font-family: Slabo, Palatino, Georgia, "Times New Roman", Helvetica;
+  text-decoration: none;
 
   -webkit-transition-duration: 0.5s;
   background-color: #ff8d3f;
@@ -183,9 +184,9 @@
 .text p {
   font-size: 120%;
   line-height: 1.5;
-  text-align: justify;
   padding-left: 5%;
   padding-right: 5%;
+  text-align: justify;
 }
 .wipTitle h3 {
   font-size: 200%;
