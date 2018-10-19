@@ -22,17 +22,17 @@
   align-items: center;
 
   /*text*/
-  text-align: center;
-  color: white;
+  color: black;
 }
 .button {
-  font-size: 20px;
+  font-size: 150%;
   text-align: center;
+  font-family: Slabo, Palatino, Georgia, "Times New Roman", Helvetica;
 
   -webkit-transition-duration: 0.5s;
-  background-color: lightblue;
+  background-color: ff8d3f;
   border-radius: 10px;
-  padding: 10px 20px;
+  padding: 15px 30px;
   color: white;
   border: none;
   display: inline-block;
@@ -40,7 +40,7 @@
   cursor: pointer;
 }
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/mtOlympus.jpg");
+  background-image: url("/images/codeTear1.png");
 }
 .hero-text h1{
   font-size: 3.5em;
@@ -52,7 +52,7 @@
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 10px 20px;
+  padding: 20px 30px;
   text-decoration: none;
 }
 .topnav a:hover {
@@ -60,23 +60,23 @@
   color: black;
 }
 .about-me {
-  background-color: #90AFC5;
+}
+.portrait img{
+  height: 200px;
+  width: 200px;
 }
 .resumeBtn:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .my-toolbox {
-  background-color: #336B87;
 }
 .projects {
-  background-color: #2A3132;
 }
 .experience {
-  background-color: #763626;
 }
 
 header {
-  background-color: #333;
+  background-color: #353c3f;
   position: fixed;
   top: 0;
   left: 0;
@@ -86,13 +86,15 @@ header {
   box-shadow: 0 0 25px 0 black;
 }
 body {
+
+  text-align: center;
   margin-left: 0;
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 0;
   height: 100%;
   width: 100%;
-  background-color: #f2f2f2;
+  background-color: #eeeeee;
   word-wrap: break-word;
   font-family: Slabo, Palatino, Georgia, "Times New Roman", Helvetica;
 }
@@ -101,8 +103,22 @@ h1 {
   font-size: 200%;
 }
 h2 {
-  color: blue;
+  color: #3f85ff;
   font-size: 300%;
+  line-height: 0.2;
+}
+article {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 p {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 125%;
+  line-height: 1.5;
+}
+hr {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
