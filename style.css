@@ -2,6 +2,9 @@
     font-family: slabo;
     src: url("/fonts/Slabo27px-Regular.ttf");
 }
+.html {
+  scroll-behavior: smooth;
+}
 .header {
   background-color: #f2f2f2;
   padding: 100px;
