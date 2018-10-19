@@ -49,6 +49,7 @@
 }
 .topnav {
   overflow: hidden;
+  margin: auto;
 }
 .topnav a {
   float: left;
