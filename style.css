@@ -70,6 +70,68 @@
 }
 .my-toolbox {
 }
+.toolBoxRow {
+  display: flex;
+}
+.toolBoxColumn {
+  flex: 50%;
+  padding-left: 3%;
+  padding-right: 3%
+}
+.toolBoxColumn p {
+  font-size: 200%;
+}
+.skillsContainer {
+  width: 100%;
+  background-color: #ddd;
+}
+.skills {
+  text-align: left;
+  font-size: 125%;
+  padding: 10px;
+  color: white;
+}
+.java{
+  width: 80%; background-color: #ff8d3f;
+}
+.cSharp {
+  width: 70%; background-color: #ff8d3f;
+}
+.cPlus {
+  width: 40%; background-color: #ff8d3f;
+}
+.c {
+  width: 40%; background-color: #ff8d3f;
+}
+.html {
+  width: 40%; background-color: #ff8d3f;
+}
+.python {
+  width: 25%; background-color: #ff8d3f;
+}
+
+.unity{
+  width: 65%; background-color: #ff8d3f;
+}
+.linux {
+  width: 60%; background-color: #ff8d3f;
+}
+.git {
+  width: 50%; background-color: #ff8d3f;
+}
+.arduino {
+  width: 30%; background-color: #ff8d3f;
+}
+.fcpX {
+  width: 80%; background-color: #ff8d3f;
+}
+.mandarin {
+  width: 80%; background-color: #ff8d3f;
+}
+.cheeky {
+  width: 100%;
+  background-color: #ff8d3f;
+}
 .projects {
 }
 .experience {
@@ -86,7 +148,6 @@ header {
   box-shadow: 0 0 25px 0 black;
 }
 body {
-
   text-align: center;
   margin-left: 0;
   margin-top: 0;
@@ -110,10 +171,10 @@ h2 {
 article {
   margin-top: 100px;
   margin-bottom: 100px;
-}
-p {
   margin-left: 15%;
   margin-right: 15%;
+}
+p {
   font-size: 125%;
   line-height: 1.5;
 }
