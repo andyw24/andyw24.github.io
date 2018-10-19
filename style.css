@@ -30,7 +30,7 @@
   font-family: Slabo, Palatino, Georgia, "Times New Roman", Helvetica;
 
   -webkit-transition-duration: 0.5s;
-  background-color: ff8d3f;
+  background-color: #ff8d3f;
   border-radius: 10px;
   padding: 15px 30px;
   color: white;
@@ -88,7 +88,7 @@
 .skills {
   text-align: left;
   font-size: 125%;
-  padding: 10px;
+  padding: 2%;
   color: white;
 }
 .java{
@@ -129,7 +129,7 @@
   width: 80%; background-color: #ff8d3f;
 }
 .cheeky {
-  width: 100%;
+  width: 96%;
   background-color: #ff8d3f;
 }
 .projects {
