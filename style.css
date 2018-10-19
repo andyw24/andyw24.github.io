@@ -2,9 +2,8 @@
   background-color: #f2f2f2;
   padding: 100px;
 }
-.hero-image {
-  /*image*/
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://andyw24.github.io/images/mtOlympus.jpg");
+.background {
+  /*background*/
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -21,6 +20,23 @@
   /*text*/
   text-align: center;
   color: white;
+}
+.button {
+  font-size: 20px;
+  text-align: center;
+
+  -webkit-transition-duration: 0.5s;
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  display: inline-block;
+
+  cursor: pointer;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/mtOlympus.jpg");
 }
 .hero-text h1{
   font-size: 3.5em;
@@ -39,6 +55,22 @@
   background-color: #ddd;
   color: black;
 }
+.about-me {
+  background-color: #90AFC5;
+}
+.resumeBtn:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.my-toolbox {
+  background-color: #336B87;
+}
+.projects {
+  background-color: #2A3132;
+}
+.experience {
+  background-color: #763626;
+}
+
 header {
   background-color: #333;
   position: fixed;
@@ -65,13 +97,10 @@ h1 {
   font-size: 200%;
 }
 h2 {
-  margin-left: 5%;
-  margin-right: 5%;
   font-family: Palatino, Georgia, "Times New Roman", Helvetica;
   color: blue;
+  font-size: 300%;
 }
 p {
-  margin-left: 5%;
-  margin-right: 5%;
   font-family: Palatino, Georgia, "Times New Roman", Helvetica;
 }
