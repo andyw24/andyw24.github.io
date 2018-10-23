@@ -186,6 +186,11 @@
   flex-basis: 500px;
   flex-grow: 1;
 }
+.text a {
+  text-decoration:none;
+  padding-right: 5%;
+  padding-left: 5%;
+}
 .text p {
   font-size: 120%;
   line-height: 1.5;
@@ -201,7 +206,13 @@
     box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
 }
 
-.contact {
+.contactIcons img{
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.contactIcons a{
+  text-decoration:none;
 }
 
 header {
