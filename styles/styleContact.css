@@ -1,0 +1,28 @@
+.mainTitle {
+  height: 35vh;
+  width: 100%;
+  margin: 0px;
+  border: 1px solid var(--lightBlue);
+  background-color: var(--lightBlue);
+}
+
+h1 {
+  font-size: 500%;
+  margin-top: 14vh;
+  margin-bottom: 8vh;
+  color: var(--lightGray);
+}
+
+.contactIcons img{
+  padding-right: 5%;
+  padding-left: 5%;
+  object-fit: contain;
+}
+
+.contactIcons a{
+  text-decoration:none;
+}
+
+.contact {
+  padding-top: 15vh;
+}

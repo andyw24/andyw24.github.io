@@ -1,0 +1,259 @@
+.mainTitle {
+  height: 35vh;
+  width: 100%;
+  margin: 0px;
+  border: 1px solid var(--lightBlue);
+  background-color: var(--lightBlue);
+}
+
+h1 {
+  font-size: 500%;
+  margin-top: 14vh;
+  margin-bottom: 8vh;
+  color: var(--lightGray);
+}
+
+/*----------------------------------vvv ABOUT ME vvv----------------------------------*/
+
+.about {
+  display:  inline-block; 
+  width: 100%;
+  height: 40vh;
+}
+
+.text {
+  display: inline-block;
+  float: left;
+  height: 80%;
+  max-width: calc(90% - 33vh);
+  margin-right: 5%;
+  text-align: left;
+}
+
+.text p {
+  color: #454545;
+  font-size: 1.4vw;
+}
+
+.resumeBtn {
+  margin-left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.resumeBtn:hover {
+  box-shadow: 0 0px 16px 0 gray;
+  transition-duration: 0.3s;
+}
+
+.button {
+  transition-duration: 0.5s;
+  font-size: 150%;
+  text-align: center;
+  text-decoration: none;
+
+  /*-webkit-transition-duration: 0.5s;*/
+  background-color: #ff8d3f;
+  border-radius: 10px;
+  padding: 15px 30px;
+  color: white;
+  border: none;
+  display: inline-block;
+
+  cursor: pointer;
+}
+
+.portrait {
+  display: inline-block;
+  float: left;
+  height: 80%;
+  margin-left: 5%;
+}
+
+img {
+  border-radius: 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  border: 7px solid var(--lightBlue);
+}
+
+/*----------------------------------^^^ ABOUT ME ^^^----------------------------------*/
+/*----------------------------------vvv Toolbox vvv----------------------------------*/
+
+.secTitle {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  float: left;
+  margin-left: 5%;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+
+.secTitle h2 {
+  font-size: 45px;
+  line-height: 40px;
+  float: left;
+  margin: 0;
+  text-align: left;
+  color: var(--darkestBlue);
+}
+
+hr {
+    border: 3px solid var(--darkestBlue);
+    width: 90%;
+    float: left;
+    margin: 0px;
+}
+
+.tools {
+  float: left;
+  margin-left: 5%;
+  display: inline-block;
+  margin-bottom: 6vh;
+}
+
+.toolBoxColumn1 {
+  display: inline-block;
+  float: left;
+}
+
+.toolBoxColumn2 {
+  display: inline-block;
+  float: left;
+  margin-left: 6vw;
+}
+
+.skillsContainer {
+  width: 35vw;
+  margin-top: 5px;
+  margin-bottom:  5px;
+  border-radius: 10px;
+  background-color: var(--gray);
+}
+.skills {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  text-align: left;
+  font-size: 125%;
+  padding: 2%;
+  padding-top: 2.5%;
+  color: white;
+  word-wrap: break-word;
+}
+
+.java{
+  width: calc(90% - 4%); background-color: var(--lightBlue);
+}
+.cSharp {
+  width: calc(90% - 4%); background-color: var(--lightBlue);
+}
+.cPlus {
+  width: calc(75% - 4%); background-color: var(--lightBlue);
+}
+.c {
+  width: calc(75% - 4%); background-color: var(--lightBlue);
+}
+.html {
+  width: calc(80% - 4%); background-color: var(--lightBlue);
+}
+.python {
+  width: calc(45% - 4%); background-color: var(--lightBlue);
+}
+.git {
+  width: calc(80% - 4%); background-color: var(--lightBlue);
+}
+
+
+.unity{
+  width: calc(90% - 4%); background-color: var(--lightBlue);
+}
+.linux {
+  width: calc(70% - 4%); background-color: var(--lightBlue);
+}
+
+.fire {
+  width: calc(50% - 4%); background-color: var(--lightBlue);
+}
+.fcpX {
+  width: calc(90% - 4%); background-color: var(--lightBlue);
+}
+.mandarin {
+  width: calc(90% - 4%); background-color: var(--lightBlue);
+}
+.team {
+  width: calc(100% - 4%); background-color: var(--lightBlue);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.org {
+  width: calc(100% - 4%); background-color: var(--lightBlue);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/*----------------------------------^^^ Toolbox ^^^----------------------------------*/
+/*----------------------------------vvv Education vvv----------------------------------*/
+
+.education {
+  float: left;
+  margin-left: 5%;
+  display: inline-block;
+  margin-bottom: 6vh;
+  text-align: left;
+}
+
+.eduText {
+  display: inline-block;
+  float: left;
+}
+
+.eduText h2 {
+  font-size: 30px;
+  line-height: 40px;
+  margin: 0;
+  float: left;
+}
+
+.eduText div#p1 {
+  font-family: JosefinSans, Palatino, Georgia, "Times New Roman", Helvetica;
+  line-height: 40px;
+  font-size: 20px;
+  margin: 0;
+  float: left;
+}
+
+.eduText div#p2 {
+  font-family: JosefinSans, Palatino, Georgia, "Times New Roman", Helvetica;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.eduText p {
+  margin: 0;
+  clear: both;
+}
+
+.eduClasses {
+  display: inline-block;
+  float: right;
+  padding-left: 70px;
+  padding-top: 7px;
+}
+
+.eduClasses p {
+  font-size: 24px;
+  line-height: 26px;
+  margin: 0;
+  clear: both;
+}
+
+.eduClasses ul {
+  line-height: 20px;
+  margin: 0;
+  clear: both;
+}
+
+/*----------------------------------^^^ Education ^^^----------------------------------*/

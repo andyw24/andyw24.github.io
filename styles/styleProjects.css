@@ -1,0 +1,96 @@
+.mainTitle {
+  height: 35vh;
+  width: 100%;
+  margin: 0px;
+  border: 1px solid var(--lightBlue);
+  background-color: var(--lightBlue);
+}
+
+h1 {
+  font-size: 500%;
+  margin-top: 14vh;
+  margin-bottom: 8vh;
+  color: var(--lightGray);
+}
+
+/*----------------------------------vvv PROJECTS vvv----------------------------------*/
+
+.allProjects {
+  width: 100%;
+  height: auto;
+  text-align:center;
+}
+
+.project {
+  transition-duration: .5s;
+  width: 400px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 4%;
+  display: inline-block;
+  text-align: left;
+  border-radius: 15px;
+  border: 7px solid var(--lightBlue);
+  overflow: hidden;
+}
+
+.project:hover {
+  /*box-shadow: 0 0px 16px 0 gray;*/
+  transition-duration: 0.3s;
+}
+
+/*----------------------------------^^^ PROJECTS ^^^----------------------------------*/
+/*----------------------------------vvv CARDS vvv----------------------------------*/
+
+.image {
+  display: block;
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  float: left;
+  z-index: 2;
+}
+
+
+.projOver {
+  display: block;
+  float: right;
+  z-index: 3;
+  position: absolute; 
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  opacity: 0;
+  transition: .3s ease;
+  text-align: center;
+  background: rgba(92,152,200,0.5);
+  overflow: hidden;
+}
+
+.projDesc {
+  padding: 50px;
+  color: white;
+}
+
+.projDesc h1 {
+  margin: 0px;
+  font-size: 30px;
+  line-height: 60px;
+}
+
+.projDesc p {
+  margin: 0px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+
+.project:hover .projOver {
+  opacity: 1;
+}
+
+.project:hover .image {
+  filter: blur(8px);
+}
+
+/*----------------------------------^^^ CARDS ^^^----------------------------------*/

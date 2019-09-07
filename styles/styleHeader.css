@@ -1,0 +1,70 @@
+
+
+/*-------------------vvv HEADER vvv-------------------*/
+.header {
+  top: 0;
+  overflow: hidden;
+  background-color: var(--darkBlue);
+  position: fixed;
+  height: 100%;
+  width: 15%;
+  text-align: right;
+}
+
+.header a {
+  margin-top: 500px;
+  color: white;
+  margin-right: 20%;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 60px;
+  border-radius: 4px;
+  color: var(--darkestBlue);
+}
+
+div#name {
+	float: right;
+	padding-left: 100%;
+	padding-top: 70px;
+	width: 145px;
+	margin-right: 20%;
+	margin-bottom: 20px;
+	font-size: 45px;
+	line-height: 40px;
+	text-align: center;
+	color: var(--lightBlue);
+}
+
+#smallName {
+	font-size: 24px;
+}
+
+.header .links:hover {
+  color: white;
+  transition-duration: .2s;
+}
+
+.header .links {
+	transition-duration: .2s;
+}
+
+.otherSide {
+  top: 0;
+  position: absolute;
+  overflow: hidden;
+  width: 85%;
+  margin-left: 15%;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1440px) {
+  div#name {
+	font-size: 3vw;
+	float: right;
+	margin-right: 5%;
+  }
+}
+
+/*-------------------^^^ HEADER ^^^-------------------*/
