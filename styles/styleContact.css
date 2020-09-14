@@ -1,16 +1,16 @@
 .mainTitle {
-  height: 35vh;
   width: 100%;
   margin: 0px;
-  border: 1px solid var(--lightBlue);
-  background-color: var(--lightBlue);
+  text-align: left;
+  padding-top: calc(30vh - 90px);
+  padding-left: 30px
 }
 
-h1 {
-  font-size: 500%;
-  margin-top: 14vh;
-  margin-bottom: 8vh;
-  color: var(--lightGray);
+.mainTitle p {
+  padding: 0%;
+  margin: 0%;
+  font-size: 60px;
+  color: var(--darkestBlue);
 }
 
 .contactIcons img{
@@ -24,5 +24,5 @@ h1 {
 }
 
 .contact {
-  padding-top: 15vh;
+  padding-top: 20px;
 }

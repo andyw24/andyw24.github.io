@@ -9,15 +9,23 @@
 }
 
 :root {
-  --darkestBlue: #32648C;  
+  --darkestBlue: #1F405C;  
 }
 
 :root {
-  --darkBlue: #3E7Fb3;  
+  --darkBlue: #3E77A5;  
 }
 
 :root {
   --lightBlue: #5C98C8;  
+}
+
+:root {
+  --lightestBlue: #A6C7E1;  
+}
+
+:root {
+  --white: #F0F5FA;
 }
 
 :root {
@@ -37,29 +45,33 @@
   width: 100vw;
 }
 
-.reveal h1 {
+.titleName p {
   margin: 0;
   position: absolute;
-  top: 50%;
+  font-size: 120px;
+  top: 45%;
   left: 50%;
-  color: var(--lightGray);
+  color: var(--darkestBlue);
+  user-select: none;
   transform: translate(-50%, -50%);
   z-index: 1;
 }
 
-.reveal h2 {
+.subtitles p {
   margin: 0;
+  font-size: 32px;
   position: absolute;
   top: 58%;
   left: 50%;
-  color: var(--lightBlue);
+  color: var(--darkBlue);
   transform: translate(-50%, -50%);
   z-index: 1;
+  user-select: none;
   transition: 0.3s;
 }
 
-.reveal h2:hover {
-  text-shadow: 0px 0px 20px var(--darkGray);
+.subtitles p:hover {
+  color: var(--lightestBlue);
 }
 
 .reveal a #about {
@@ -109,9 +121,7 @@ body {
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 0;
-  height: 100%;
-  width: 100%;
-  background-color: var(--lightGray);
+  background-color: var(--white);
   word-wrap: break-word;
   font-family: JosefinSans, Palatino, Georgia, "Times New Roman", Helvetica;
 }

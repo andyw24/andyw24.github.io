@@ -1,42 +1,45 @@
 .mainTitle {
-  height: 35vh;
   width: 100%;
   margin: 0px;
-  border: 1px solid var(--lightBlue);
-  background-color: var(--lightBlue);
+  text-align: left;
+  padding-top: calc(30vh - 90px);
+  padding-left: 30px
 }
 
-h1 {
-  font-size: 500%;
-  margin-top: 14vh;
-  margin-bottom: 8vh;
-  color: var(--lightGray);
+.mainTitle p {
+  padding: 0%;
+  margin: 0%;
+  font-size: 60px;
+  color: var(--darkestBlue);
 }
 
 /*----------------------------------vvv ABOUT ME vvv----------------------------------*/
 
 .about {
-  display:  inline-block; 
+  margin-top: 20px;
+  display: inline-block; 
   width: 100%;
-  height: 40vh;
 }
 
 .text {
   display: inline-block;
+  padding: 0px;
+  margin: 0px;
   float: left;
-  height: 80%;
-  max-width: calc(90% - 33vh);
-  margin-right: 5%;
-  text-align: left;
+  width: 100%;
+  text-align: justify;
 }
 
 .text p {
-  color: #454545;
-  font-size: 1.4vw;
+  color: var(--darkestBlue);
+  font-size: 22px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .resumeBtn {
-  margin-left: 50%;
+  margin-top: 20px;
+  margin-left: 20%;
   transform: translate(-50%, 0%);
 }
 
@@ -52,7 +55,7 @@ h1 {
   text-decoration: none;
 
   /*-webkit-transition-duration: 0.5s;*/
-  background-color: #ff8d3f;
+  background-color: var(--darkestBlue);
   border-radius: 10px;
   padding: 15px 30px;
   color: white;
@@ -65,18 +68,20 @@ h1 {
 .portrait {
   display: inline-block;
   float: left;
-  height: 80%;
+  height: 200px;
   margin-left: 5%;
 }
 
-img {
-  border-radius: 20px;
+.text img {
+  float: left;
+  margin-right: 20px;
+  width: 220px;
+  height: 220px;
+  border-radius: 0px;
   box-sizing: border-box;
-  max-width: 100%;
-  max-height: 100%;
   display: inline-block;
   vertical-align: middle;
-  border: 7px solid var(--lightBlue);
+  border: 2px solid var(--darkBlue);
 }
 
 /*----------------------------------^^^ ABOUT ME ^^^----------------------------------*/
@@ -92,8 +97,8 @@ img {
   margin-bottom: 2vh;
 }
 
-.secTitle h2 {
-  font-size: 45px;
+.secTitle p {
+  font-size: 36px;
   line-height: 40px;
   float: left;
   margin: 0;
@@ -102,7 +107,7 @@ img {
 }
 
 hr {
-    border: 3px solid var(--darkestBlue);
+    border: 1px solid var(--darkestBlue);
     width: 90%;
     float: left;
     margin: 0px;

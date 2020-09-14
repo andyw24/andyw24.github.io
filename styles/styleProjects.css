@@ -1,37 +1,44 @@
 .mainTitle {
-  height: 35vh;
   width: 100%;
   margin: 0px;
-  border: 1px solid var(--lightBlue);
-  background-color: var(--lightBlue);
+  text-align: left;
+  padding-top: calc(30vh - 90px);
+  padding-left: 30px
 }
 
-h1 {
-  font-size: 500%;
-  margin-top: 14vh;
-  margin-bottom: 8vh;
-  color: var(--lightGray);
+.mainTitle p {
+  padding: 0%;
+  margin: 0%;
+  font-size: 60px;
+  color: var(--darkestBlue);
 }
-
 /*----------------------------------vvv PROJECTS vvv----------------------------------*/
 
 .allProjects {
   width: 100%;
   height: auto;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 10vh;
   text-align:center;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .project {
   transition-duration: .5s;
   width: 400px;
+  min-width: 350px;
   height: 300px;
-  margin-top: 50px;
-  margin-left: 4%;
   display: inline-block;
   text-align: left;
-  border-radius: 15px;
-  border: 7px solid var(--lightBlue);
+  border-radius: 0px;
+  border: 3px solid var(--darkestBlue);
   overflow: hidden;
+
+  margin: 10px;
 }
 
 .project:hover {

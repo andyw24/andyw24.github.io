@@ -11,20 +11,24 @@
 		<link rel="stylesheet" href="styles/styleIndex.css">
 	</head>
 
-	<body style="background-color: var(--darkBlue);">
+	<body style="background-color: var(--white);">
     <div class="reveal">
-      <h1>Andy Wang</h1>
-      <a href="about.html"><h2 id="about">About</h2></a>
-      <a href="projects.html"><h2 id="projects">Projects</h2></a>
-      <a href="contact.html"><h2 id="contact">Contact</h2></a>
-      <svg id="mainSvg" width="100%" height="100%">
-        <mask id="mask">
-          <circle cx="-50%" cy="-50%" r="10%" fill="white"/>
-        </mask>
-        <image id = "titlePage" xlink:href="/images/indexWords.png" width="100%" height="100%" border="0" preserveAspectRatio="xMinYMin slice" mask="url(#mask)"></image>
-        <image class="bug" xlink:href="/images/moth.png" width="6%" height="6%" mask="url(#mask)"></image>
-      </svg>
-      <h3 id="compile">Compilation failed with 1 error(s)</h3>
+      <div class="titleName">
+        <p>Andy Wang</p>
+      </div>
+      <div class="subtitles">
+        <a href="about.html"><p id="about">About</p></a>
+        <a href="projects.html"><p id="projects">Projects</p></a>
+        <a href="contact.html"><p id="contact">Contact</p></a>
+        <svg id="mainSvg" width="100%" height="100%">
+          <mask id="mask">
+            <circle cx="-50%" cy="-50%" r="10%" fill="white"/>
+          </mask>
+          <image id = "titlePage" xlink:href="/images/indexWords.png" width="100%" height="100%" border="0" preserveAspectRatio="xMinYMin slice" mask="url(#mask)"></image>
+          <image class="bug" xlink:href="/images/moth.png" width="6%" height="6%" mask="url(#mask)"></image>
+        </svg>
+        <h3 id="compile">Compilation failed with 1 error(s)</h3>
+      </div>
     </div>
 	</body>
 </html>

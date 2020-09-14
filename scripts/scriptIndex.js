@@ -31,7 +31,7 @@ $(document).ready(function(){
   $(".bug").click(function() {
     bug = false;
     $("#mainSvg").remove();
-    $("#compile").css('color', 'lightgreen');
+    $("#compile").css('color', 'green');
     $("#compile").text("Compilation completed with 0 error(s)");
   });
 
